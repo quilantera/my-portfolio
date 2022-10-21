@@ -1,0 +1,88 @@
+.contact {
+    padding-bottom: 8rem;
+    position: relative;
+    .container, .contact-container {
+        width: 58%;
+        display: grid;
+        grid-template-columns: 30% 58%;
+        gap: 12%;
+    }
+    .contact-options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .contact-option {
+        background: var(--secondary);
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+        text-align: center;
+        border: 1px solid transparent;
+        transition: var(--transition);
+    }
+    .contact-option:hover {
+        background: transparent;
+        border-color: var(--text-primary);
+    }
+    .contact-option-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .contact-option a {
+        margin-top: 0.7rem;
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }  
+    
+    input, textarea {
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        background: rgba(0, 0, 0, 0.2);
+        border: 2px solid var(--secondary);
+        resize: none;
+        color: var(--light-text);
+    }
+    button{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .loading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top:0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}
+
+
+/* ############### MEDIA QUERY (MEDIUM DEVICES) ######################### */
+@media screen and (max-width: 1024px){
+    .contact{
+    .container, .contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+}
+/* ############### MEDIA QUERY (SMALL DEVICES) ######################### */
+@media screen and (max-width: 600px){
+    .contact{
+        .container, .contact-container {
+            width: var(--container-width-sm);
+        }
+}
+}
+
+
+

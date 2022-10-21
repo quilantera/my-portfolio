@@ -1,0 +1,11 @@
+.cta {
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+
+    a{
+        transition: var(--transition);
+    }
+}
+
