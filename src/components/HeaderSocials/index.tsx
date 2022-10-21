@@ -1,5 +1,5 @@
 import './styles.scss';
-import {BsLinkedin} from 'react-icons/Bs';
+import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
 
 export function HeaderSocials(){
