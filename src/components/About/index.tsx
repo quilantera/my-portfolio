@@ -1,17 +1,17 @@
 import './styles.scss'
-
+import ProfileImage  from '../../assets/me.jpg';
 import {FiAward} from 'react-icons/fi';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc'
 export function About(){
-    const linkphoto ="https://scontent.fppb2-1.fna.fbcdn.net/v/t1.6435-9/33207171_2220989121250351_8973884370246959104_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=19026a&_nc_ohc=NiQrI3qwJaUAX-Tkici&_nc_ht=scontent.fppb2-1.fna&oh=00_AT85x8HED8BtQudBwDGJjY75DxnXOCTdDJhlbxo9I0CwXg&oe=63769F04"
+   
     return(
     <section id="about">
        <h5> Go to Know</h5><h2>About Me</h2>   
        <div className="container about-container">    
             <div className="about-me">  
                 <div className="about-me-image">
-                    <img src={linkphoto} alt="About Image"/>
+                    <img src={ProfileImage} alt="About Image"/>
                 </div>
             </div>  
 
@@ -21,7 +21,7 @@ export function About(){
                     <article className="about-card">
                         <FiAward className='about-icon'/>
                         <h5>Experience</h5>
-                        <small> initialing Working </small>
+                        <small> +/- 3 months with </small>
                     </article>
 
                     <article className="about-card">

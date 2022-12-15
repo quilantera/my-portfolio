@@ -1,4 +1,6 @@
 import './styles.scss'
+import {BsLinkedin,BsInstagram} from 'react-icons/bs';
+import {FaGithub} from 'react-icons/fa';
 import {MdOutlineEmail} from 'react-icons/md';
 import {MdPhone} from 'react-icons/md';
 import ReactLoading from 'react-loading';
@@ -44,7 +46,19 @@ export function Contact(){
                     <h5>+55 11 98986-2282 </h5>
                     <a href="https://wa.me/5511989862282" target="_blank">Send a message </a>
                 </article>
-        </div>
+                <div className="social-medias">
+                    <a href="https://www.linkedin.com/in/gustavo-quilante-azevedo-328552239" target="_blank">
+                        <BsLinkedin/>
+                    </a>
+                    <a href="https://github.com/quilantera" target="_blank">
+                        <FaGithub/>
+                    </a>
+                    <a href="https://www.instagram.com/gustavo_gqa/" target="_blank">
+                        <BsInstagram/>
+                    </a>
+                  
+                </div>
+            </div>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Your Full Name" required/>
                 <input type="email" name="email" placeholder="Your E-mail" required/>
