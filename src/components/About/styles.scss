@@ -64,7 +64,20 @@
 
 
 /* ############### MEDIA QUERY (MEDIUM DEVICES) ######################### */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1020px){
+    .about-container{
+        gap: 10%;
+    }
+    
+    .about-content{
+        width: 100%;
+        p{
+            margin: 1rem 0 2.6rem;
+            color: var(--light-background);
+        }
+    }
+}
+@media screen and (max-width: 840px){
     .about-container {
         grid-template-columns: 1fr;
         gap: 0;  

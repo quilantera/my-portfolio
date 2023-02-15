@@ -7,7 +7,7 @@ export function About(){
    
     return(
     <section id="about">
-       <h5> Go to Know</h5><h2>About Me</h2>   
+       <h5> Get to Know</h5><h2>About Me</h2>   
        <div className="container about-container">    
             <div className="about-me">  
                 <div className="about-me-image">
@@ -37,7 +37,7 @@ export function About(){
                     </article>
                     
                 </div>
-                <p> I´m Gustavo, Front-end Developer and currently graduating in Computer Science.</p>
+                <p> I´m Gustavo, Front-end Developer and currently graduating at Computer Science.</p>
                 <a href="#contact" className="btn btn-primary">Let´s talk</a>
             </div>
         </div>

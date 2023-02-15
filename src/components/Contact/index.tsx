@@ -62,7 +62,7 @@ export function Contact(){
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Your Full Name" required/>
                 <input type="email" name="email" placeholder="Your E-mail" required/>
-                <textarea name="message" rows={7} placeholder="Tell me a Message" required/>
+                <textarea name="message" rows={7} placeholder="Tell me something" required/>
                 
             <button type="submit" className="btn btn-primary">Send Message</button>
             </form>
