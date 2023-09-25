@@ -25,7 +25,7 @@ export function Experience(){
                         <div>
                             
                             <h4>CSS </h4>
-                        <small className="text-light">Intermediary </small>
+                        <small className="text-light">Experienced</small>
                         </div>
                     </article>
                     
@@ -55,6 +55,23 @@ export function Experience(){
                             <small className="text-light">Intermediary</small>
                         </div>
                     </article>
+                    <article className="experience-details">
+                    <HiCheckBadge className="experience-details-icon"/>
+                        <div>
+                            
+                            <h4>Next.js</h4>
+                            <small className="text-light">Basic</small>
+                        </div>
+                    </article>
+                    <article className="experience-details">
+                    <HiCheckBadge className="experience-details-icon"/>
+                        <div>
+                            
+                            <h4>Thymeleaf</h4>
+                            <small className="text-light">Basic</small>
+                        </div>
+                    </article>
+
 
                 </div>
             </div>
@@ -81,7 +98,7 @@ export function Experience(){
                     <HiCheckBadge className="experience-details-icon"/>  
                         <div>
                             <h4>MongoDB </h4>
-                        <small className="text-light">Basic </small>
+                        <small className="text-light">Intermediary </small>
                         </div>
                     </article>
 
@@ -98,6 +115,20 @@ export function Experience(){
                         <div>
                             <h4>MySQL</h4>
                             <small className="text-light">Basic </small>
+                        </div>
+                    </article>
+                    <article className="experience-details">
+                    <HiCheckBadge className="experience-details-icon"/>
+                        <div>
+                            <h4>SpringBoot</h4>
+                            <small className="text-light">Basic </small>
+                        </div>
+                    </article>
+                    <article className="experience-details">
+                    <HiCheckBadge className="experience-details-icon"/>
+                        <div>
+                            <h4>Java</h4>
+                            <small className="text-light">Intermediary</small>
                         </div>
                     </article>
                 </div>
