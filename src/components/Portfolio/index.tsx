@@ -23,7 +23,7 @@ export function Portfolio(){
                     </div>
                     <h3>Azevedo Seu Imóvel</h3>
                     <div className="portfolio-cta">
-                        <a href="https://www.azevedoseuimovel.com/" className="btn btn-primary" target="_blank">Live Demo</a>
+                        <a href="https://www.azevedoseuimovel.com.br/" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -92,7 +92,6 @@ export function Portfolio(){
                     <h3>HypedContent - Doc shoes</h3>
                     <div className="portfolio-cta">
                         <a href="https://github.com/quilantera/TrabalhoappWeb" className="btn" target="_blank">Github</a>
-                    <a href="https://github.com/quilantera/TrabalhoappWeb" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
             </div>
