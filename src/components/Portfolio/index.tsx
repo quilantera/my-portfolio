@@ -42,7 +42,7 @@ export function Portfolio(){
                     <h3>Blind Study - TCC</h3>
                     <div className="portfolio-cta">
                         <a href="https://github.com/quilantera/blindStudy" className="btn" target="_blank">Github</a>
-                        <a href="https://blind-study.vercel.app/materias/" className="btn btn-primary" target="_blank">Live Demo</a>
+                        <a href="https://blind-study.vercel.app/" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
